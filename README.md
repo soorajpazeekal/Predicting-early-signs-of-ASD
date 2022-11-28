@@ -12,4 +12,4 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 Most people with ASD have other related characteristics. These might include: 
 > Delayed language skills
 > Hyperactive, impulsive, and/or inattentive behavior etc.
-![Screenshot](image_86ad5d3b8a.png)
+![Screenshot](/screenshots/image_86ad5d3b8a.png)
