@@ -14,6 +14,9 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 # Simple data pipeline (From capureing video then to extracting video frames.)
 ![Screenshot](/screenshots/Screenshot%20(208).png)
 
+# sample videos for data pre-processing and testing. for more checkout 'videos' folder!
+![video](/videos/VIDEO_Autistic_63abfea1-e5f9-4230-9f8d-9ce851579555.mp4)
+
 # Installation
 This web application requires stremlit, python >= 3.8+, keras and tensorflow backend. conda enviroment is recommend rather than any other env programes.
  - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
@@ -29,5 +32,5 @@ This web application requires stremlit, python >= 3.8+, keras and tensorflow bac
     ```
 # Screenshots
 ![Screenshot](/screenshots/Opera%20Snapshot_2022-08-29_214151_sharp-mayfly-96.loca.lt.png)
-![Screenshot](/screenshots/Screenshot%20(204).png)
 ![Screenshot](/screenshots/Screenshot%20(211).png)
+![Screenshot](/screenshots/Screenshot%20(204).png)
