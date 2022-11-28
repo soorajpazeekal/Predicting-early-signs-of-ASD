@@ -27,4 +27,7 @@ This web application requires stremlit, python >= 3.8+, keras and tensorflow bac
     ```python
     python app.py
     ```
-    
+# Screenshots
+![Screenshot](/screenshots/Opera%20Snapshot_2022-08-29_214151_sharp-mayfly-96.loca.lt.png)
+![Screenshot](/screenshots/Screenshot%20(204).png)
+![Screenshot](/screenshots/Screenshot%20(211).png)
