@@ -5,7 +5,11 @@ Autism is a severe developmental spectrum disorder that puts constraints on comm
 
 ## Signs and Symptoms of Autism Spectrum Disorder
 ### Social Communication and Interaction Skills
+Social communication and interaction skills can be challenging for people with ASD.
 ### Restricted or Repetitive Behaviors or Interests
-### Delayed language skills
-### Hyperactive, impulsive, and/or inattentive behavior etc.
+People with ASD have behaviors or interests that can seem unusual. These behaviors or interests set ASD apart from conditions defined by problems with social communication and interaction only.
 
+Most people with ASD have other related characteristics. These might include: 
+> Delayed language skills
+> Hyperactive, impulsive, and/or inattentive behavior etc.
+![Screenshot](image_86ad5d3b8a.png)
