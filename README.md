@@ -16,11 +16,15 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 
 # Installation
 This web application requires stremlit, python >= 3.8+, keras and tensorflow backend. conda enviroment is recommend rather than any other env programes.
- - [Install all dependencies with conda (make sure Anaconda or Miniconda is installed) ]
+ - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
     ```python
     conda env create --name envname --file=environments.yml
     ```
     ```python
     conda activate {envname}
     ```
- - []    
+ - Make sure tensorflow version == 2.8.2
+    ```python
+    python app.py
+    ```
+    
