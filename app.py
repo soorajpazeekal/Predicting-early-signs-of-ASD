@@ -56,9 +56,6 @@ with st.sidebar:
 
 
 
-
-
-
 option = st.selectbox(
      'Select from list of videos:',
      (os.listdir(os.path.join(video_directory))))
