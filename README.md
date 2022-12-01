@@ -14,7 +14,7 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 # Simple data pipeline (From capureing video then to extracting video frames.)
 ![Screenshot](/screenshots/Screenshot%20(208).png)
 
-# sample videos for data pre-processing and testing. for more checkout 'videos' folder!
+# sample video for data pre-processing and testing. for more checkout 'videos' folder!
 ![video](https://github.com/soorajpazeekal/Predicting-early-signs-of-ASD/blob/development/videos/VIDEO_Autistic_63abfea1-e5f9-4230-9f8d-9ce851579555.mp4)
 
 # Installation
