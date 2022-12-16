@@ -20,6 +20,7 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 # Installation
 This web application requires streamlit, python >= 3.8+, keras and tensorflow backend. conda enviroment is recommend rather than any other env programes.
  - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
+ 
      ```sh
     git clone https://github.com/soorajpazeekal/Predicting-early-signs-of-ASD.git
     ```
