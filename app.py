@@ -4,6 +4,7 @@ import cv2
 import os
 import random
 
+
 video_directory = "videos"
 video_frames_directory = "video_frames"
 pretrained_model = "pretrained_models"
