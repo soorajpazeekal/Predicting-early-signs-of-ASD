@@ -9,7 +9,7 @@ video_frames_directory = "video_frames"
 pretrained_model = "pretrained_models"
 
 
-st.title("✔️Predicting early signs of autism using facial landmarks with series of video frames")
+st.title("✔️ Predicting early signs of autism using facial landmarks with series of video frames")
 with st.expander("📙 See more info"):
     st.write("""Autism is a severe developmental spectrum disorder that puts constraints on communicating linguistic, 
 cognitive, and social interaction skills. Autism spectrum disorder screening detects potential 
