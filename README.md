@@ -32,7 +32,7 @@ This web application requires streamlit, python >= 3.8+, keras and tensorflow ba
     ```
  - Make sure tensorflow version == 2.8.2
     ```python
-    python app.py
+    streamlit run app.py
     ```
 # Screenshots
 ![Screenshot](/screenshots/Opera%20Snapshot_2022-08-29_214151_sharp-mayfly-96.loca.lt.png)
