@@ -27,9 +27,11 @@ This web application requires streamlit, python >= 3.8+, keras and tensorflow ba
     docker build -t my_streamlit_app .
     ```
      ```sh
-    docker run -p 8501:8501 my_streamlit_app
+    docker run --name test_container -p 8501:8501 my_streamlit_app
     ```
-
+    ```sh
+    docker start test_container
+    ```
 
 ## Normal way
  - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
