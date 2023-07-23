@@ -19,6 +19,19 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 
 # Installation
 This web application requires streamlit, python >= 3.8+, keras and tensorflow backend. conda enviroment is recommend rather than any other env programes.
+
+## Install with docker
+ - Please make sure docker installed on your system
+ - Run these commands with in the root folder of this project
+     ```sh
+    docker build -t my_streamlit_app .
+    ```
+     ```sh
+    docker run -p 8501:8501 my_streamlit_app
+    ```
+
+
+## Normal way
  - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
  
      ```sh
