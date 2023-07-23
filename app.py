@@ -163,9 +163,9 @@ if st.button('Run model'):
       st.write(max(set(list_pred), key=list_pred.count))
       col1, col2 = st.columns(2)
       with col1:
-          st.header("Total Autistic Singns were discovered?")
+          st.header("Total Autistic signs were discovered?")
           st.metric(label="Autistic:", value=list_pred.count(0), delta=list_pred.count(1))
       with col2:
-          st.header("Total Non_Autistic Singns were discovered?")
+          st.header("Total Non_Autistic signs were discovered?")
           st.metric(label="Non_Autistic:", value=list_pred.count(1), delta=f"-{list_pred.count(0)}")  
 
