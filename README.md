@@ -14,12 +14,28 @@ People with ASD have behaviors or interests that can seem unusual. These behavio
 # Simple data pipeline (From capureing video then to extracting video frames.)
 ![Screenshot](/screenshots/Screenshot%20(208).png)
 
-# sample videos for data pre-processing and testing. for more checkout 'videos' folder!
+# sample video for data pre-processing and testing. for more checkout 'videos' folder!
 ![video](https://github.com/soorajpazeekal/Predicting-early-signs-of-ASD/blob/development/videos/VIDEO_Autistic_63abfea1-e5f9-4230-9f8d-9ce851579555.mp4)
 
 # Installation
 This web application requires streamlit, python >= 3.8+, keras and tensorflow backend. conda enviroment is recommend rather than any other env programes.
+
+## Install with docker
+ - Please make sure docker installed on your system
+ - Run these commands with in the root folder of this project
+     ```sh
+    docker build -t my_streamlit_app .
+    ```
+     ```sh
+    docker run --name test_container -p 8501:8501 my_streamlit_app
+    ```
+    ```sh
+    docker start test_container
+    ```
+
+## Normal way
  - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
+ 
      ```sh
     git clone https://github.com/soorajpazeekal/Predicting-early-signs-of-ASD.git
     ```
@@ -31,7 +47,7 @@ This web application requires streamlit, python >= 3.8+, keras and tensorflow ba
     ```
  - Make sure tensorflow version == 2.8.2
     ```python
-    python app.py
+    streamlit run app.py
     ```
 # Screenshots
 ![Screenshot](/screenshots/Opera%20Snapshot_2022-08-29_214151_sharp-mayfly-96.loca.lt.png)

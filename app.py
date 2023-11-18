@@ -4,12 +4,13 @@ import cv2
 import os
 import random
 
+
 video_directory = "videos"
 video_frames_directory = "video_frames"
 pretrained_model = "pretrained_models"
 
 
-st.title("✔️Predicting early signs of autism using facial landmarks with series of video frames")
+st.title("✔️ Predicting early signs of autism using facial landmarks with series of video frames")
 with st.expander("📙 See more info"):
     st.write("""Autism is a severe developmental spectrum disorder that puts constraints on communicating linguistic, 
 cognitive, and social interaction skills. Autism spectrum disorder screening detects potential 
@@ -53,9 +54,6 @@ with st.sidebar:
     except:
       st.write("""You can preview the already cropped faces from your input video here. 
       If it's empty, please run the first and second steps instead! """)  
-
-
-
 
 
 
@@ -127,8 +125,6 @@ if st.button('Start'):
 
 
 
-
-
 import numpy as np
 import pandas as pd
 import os
@@ -167,9 +163,9 @@ if st.button('Run model'):
       st.write(max(set(list_pred), key=list_pred.count))
       col1, col2 = st.columns(2)
       with col1:
-          st.header("Total Autistic Singns were discovered?")
+          st.header("Total Autistic signs were discovered?")
           st.metric(label="Autistic:", value=list_pred.count(0), delta=list_pred.count(1))
       with col2:
-          st.header("Total Non_Autistic Singns were discovered?")
+          st.header("Total Non_Autistic signs were discovered?")
           st.metric(label="Non_Autistic:", value=list_pred.count(1), delta=f"-{list_pred.count(0)}")  
 

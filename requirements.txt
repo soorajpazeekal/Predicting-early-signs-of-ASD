@@ -1,0 +1,5 @@
+tensorflow==2.8.2
+streamlit==1.11.0
+pandas==1.4.3
+opencv-python==4.6.0.66
+altair==4.1.0
