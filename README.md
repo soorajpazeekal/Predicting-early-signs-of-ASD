@@ -33,7 +33,7 @@ This web application requires streamlit, python >= 3.8+, keras and tensorflow ba
     docker start test_container
     ```
 
-## Normal way
+## Build from sourcecode
  - Install all dependencies with conda (make sure Anaconda or Miniconda is installed)
  
      ```sh
